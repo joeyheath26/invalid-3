@@ -1,0 +1,189 @@
+/* for tableau.html 
+uses 3 <div> elements
+Navigation (header) 
+    expands and contracts horizontally as the page is resized
+    includes the intra-site navigation links here
+Tableau (main body) 
+    expands and contracts vertically and horizontally as the page is resized
+    include the live Tableau dashboards here
+Footer (at the bottom)
+    expands and contracts horizontally as the page is resized
+    include copyright, year, and your name, and any other info you want here (e.g., your social profile links)
+
+working links back to all other pages on the site
+two custom styles beyond the divs (captions or footer)
+
+Implement the following on the Tableau < div >: 
+    Create and export four Tableau charts as live graphs that answer the following questions:
+        How are profits faring in each of the 50 states?
+        How has one of the highest-profit states fared for the last two years by profit, shown by month?
+        How are profits within that state doing for each product category?
+        For the most profitable category, forecast sales (pick a state that has enough data for a forecast) through November 2015
+        Write a caption (in HTML) for each chart that very briefly explains the chart (e.g. profits are strongest in Utah), and place it below the chart.
+*/
+
+body{
+    background-color: rgb(247, 166, 166);
+}
+
+.header{
+    position: sticky;
+    left: 5px;
+    right: 5px;
+    top: 0px;
+    height: 19px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: rgb(250, 218, 218);
+    z-index: 1;
+}
+
+.title{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 75px;
+    border-bottom: solid 1px #555555;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mainbody{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 400px;
+    width: 1000px; */
+    z-index: 5;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer{
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 45px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: sticky;
+    border: black solid 2px;
+    background-color: rgb(250, 218, 218);
+}
+
+
+
+.other-text{
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* .other-text:visited{
+    color: rgb(181, 130, 231);
+} */
+
+.other-text:hover{
+    text-decoration: underline;
+}
+
+.backtotop{
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backtotop:hover{
+    text-decoration: underline;
+}
+
+.backtotop:visited{
+    color: rgb(0, 0, 0);
+}
+
+.index{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    left: 15px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.resume{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    right: 90px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    right: 197px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    right: 288px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.tableau{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    right: 15px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.dash{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.on-page-link{
+    color: rgb(0, 136, 255);
+    text-decoration: none;
+}
+
+.on-page-link:visited{
+    color: rebeccapurple;
+}
+
+.on-page-link:hover{
+    text-decoration: underline;
+}
+

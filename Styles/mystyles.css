@@ -1,0 +1,99 @@
+/* for all html links other than tableau 
+at least 4 style attributes for index and about me
+*/
+body{
+    background-color: rgb(247, 166, 166);
+}
+
+.index-titles{
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.index-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    color: rgb(47, 48, 47);
+}
+
+.banner-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550px;
+}
+
+.banner-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.banner-text:hover{
+    text-decoration: underline;
+}
+
+.banner-text:visited{
+    color: rgb(48, 46, 46);
+}
+
+.subheader{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+.backtotop{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-style: normal;
+    color: black;
+}
+
+.aboutmetext{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.on-page-link{
+    color: rgb(0, 136, 255);
+    text-decoration: none;
+}
+
+.on-page-link:visited{
+    color: rebeccapurple;
+}
+
+.on-page-link:hover{
+    text-decoration: underline;
+}
+
+ul{
+    font-size: 12;
+    font-style: italic;    
+}
+
+.skills{
+    font-style: normal;
+    font-size: 15;
+}
+
+.dates{
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+
+.resume-titles{
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline white;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
